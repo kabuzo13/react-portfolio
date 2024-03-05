@@ -1,12 +1,17 @@
 import React from "react";
 import Header from "./components/Header/header";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import home from "./components/Home/home";
+import Home from "./components/Home/home";
+import Contact from "./components/Contact/contact";
 import './App.css'
 
 function App() {
   return (
-    <Header></Header>
+    <Wrapper>
+    <Header />
+    <Home />
+    <Contact />
+    </Wrapper>
   )
 }
 

@@ -1,11 +1,12 @@
 import React from 'react';
+import "./style.css";
 
 function home() {
   return (
-    <div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">Beatrix Honigmann</h1>
-    <p class="lead">Aspiring developer</p>
+    <div className="jumbotron jumbotron-fluid">
+  <div className="container">
+    <h1 className="display-4">Beatrix Honigmann</h1>
+    <p className="lead">Aspiring developer</p>
   </div>
 </div>
   )
