@@ -4,7 +4,7 @@ import "./style.css";
 function Header() {
     return (
         <div>
-        <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-purple" style="background-color: rgb(220, 155, 220);">
+        <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-purple" style={{backgroundColor: "rgb(220, 155, 220)"}}>
   <a className="navbar-brand" href="#">Navbar</a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
