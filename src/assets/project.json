@@ -1,14 +1,38 @@
 [
     {
-        "title": "Test 1",
+        "title": "Password Generator",
         "deployedLink": "#",
         "repoLink":  "#",
-        "screenshot": "../../../public/me2.jpeg"
+        "screenshot": "/PasswordGenerator.jpeg"
     },
     {
-        "title": "Test 2",
+        "title": "Workday Scheduler",
         "deployedLink": "#",
         "repoLink":  "#",
-        "screenshot": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Peacock_Plumage.jpg/220px-Peacock_Plumage.jpg"
+        "screenshot": "/CalendarApp.jpeg"
+    },
+    {
+        "title": "Quiz Challenge",
+        "deployedLink": "#",
+        "repoLink":  "#",
+        "screenshot": "/QuizChallenge.jpeg" 
+    },
+    {
+        "title": "Test 4",
+        "deployedLink": "#",
+        "repoLink":  "#",
+        "screenshot": "/QuizChallenge.jpeg" 
+    },
+    {
+        "title": "Test 5",
+        "deployedLink": "#",
+        "repoLink":  "#",
+        "screenshot": "./QuizChallenge.jpeg" 
+    },
+    {
+        "title": "Test 6",
+        "deployedLink": "#",
+        "repoLink":  "#",
+        "screenshot": "./QuizChallenge.jpeg" 
     }
 ]

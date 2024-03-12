@@ -4,20 +4,17 @@ import projects from '../../assets/project.json'
 
 
 function projectGallery(props) {
-    const images = ["../../assets/me2.jpeg"]
   return (
-    <div>
+    <div className="row row-cols-1 row-cols-md-3 g-4">
         {projects.map(project => {
             return (
-                <div>
+                <div className="col">
                     <Project title={project.title} 
                     deployedLink={project.deployedLink}
                     repoLink={project.repoLink}
-                    screenshot={images.map(image => {
-                        image
-                    })}
+                    screenshot={project.screenshot}
                     ></Project>
-                </div>
+                    </div>
             )
             })}
     </div>

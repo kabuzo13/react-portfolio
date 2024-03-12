@@ -3,7 +3,7 @@ import React from "react";
 function contact() {
   return (
     <section className="row page-section-contact m-3 p-4" id="contact">
-            <h2 className="col-md-3 leftHeading border-end border-5 border-primary text-end">Contact Me</h2>
+            <h2 className="col-md-4 flex-start">Contact Me</h2>
             <article className="col-md-8">
                 <summary className="d-flex justify-content-evenly">
 
